@@ -7,10 +7,15 @@
   "type": "module",
   "main": "index.ts",
   "scripts": {
-    "start": "tsx index.ts"
+    "01": "tsx src/01-blind-call.ts",
+    "02": "tsx src/02-ask-for-context.ts",
+    "03": "tsx src/03-with-tools.ts",
+    "04": "tsx src/04-the-loop.ts"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "0.104.2",
     "@types/node": "25.9.3",
+    "dotenv": "17.4.2",
     "typescript": "6.0.3"
   }
 }

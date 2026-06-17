@@ -1,22 +1,22 @@
 export interface User {
   id: string;
   name: string;
-  emailAddress: string;
-  gender: 'Male' | 'Female';
+  email: string;
+  gender: 'Man' | 'Woman';
 }
 
 const users: Record<string, User> = {
   u_123: {
     id: 'u_123',
     name: 'Ada',
-    emailAddress: 'ada@example.com',
-    gender: 'Female',
+    email: 'ada@example.com',
+    gender: 'Woman',
   },
   u_321: {
     id: 'u_321',
     name: 'John',
-    emailAddress: 'john@example.com',
-    gender: 'Male',
+    email: 'john@example.com',
+    gender: 'Man',
   },
 };
 
