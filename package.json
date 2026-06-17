@@ -1,0 +1,16 @@
+{
+  "name": "agent-patterns-loop",
+  "version": "1.0.0",
+  "description": "Agent Patterns Loop Examples",
+  "license": "ISC",
+  "author": "Palamim",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "@types/node": "25.9.3",
+    "typescript": "6.0.3"
+  }
+}
