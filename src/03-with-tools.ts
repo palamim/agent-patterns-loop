@@ -28,7 +28,7 @@ const messages: Anthropic.MessageParam[] = [
               }
                     
               If you need more context, finalAnswer should de false and content should be 'read_file'.
-              If it's yous final answer, finalAnswer should be true and content should be the code snippet.`,
+              If it's your final answer, finalAnswer should be true and content should be the code snippet.`,
   },
 ];
 
